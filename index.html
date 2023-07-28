@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" name="viewport" content="width-device-width, initial-scale=1"/>
+<style>
+    .rectangle{
+        height: 600px;
+        width: 400px;
+        background-color: #555;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 22px;
+        position: relative;
+    }
+    .screen{
+        height: 100px;
+        width: 380px;
+        background-color: #fff;
+        margin-left: 433px; 
+        margin-right: auto;
+        margin-top: 15px;
+        position: absolute;
+    }
+    h2{
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <h2>Calculadora</h2>
+    <div class="screen" style="z-index: 100"></div>
+    <div class="rectangle" style="z-index: -1"></div>
+    
+</body>
+</html>
