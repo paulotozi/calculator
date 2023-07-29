@@ -7,19 +7,31 @@
         height: 600px;
         width: 400px;
         background-color: #555;
-        margin-left: auto;
+        margin-left: 423px;
         margin-right: auto;
         margin-top: 22px;
-        position: relative;
+        position: absolute;
+        border-radius: 25px;
     }
     .screen{
         height: 100px;
         width: 380px;
-        background-color: #fff;
+        background-color: #457;
         margin-left: 433px; 
         margin-right: auto;
-        margin-top: 15px;
+        margin-top: 32px;
         position: absolute;
+        border-radius: 25px;
+    }
+    .button{
+        height: 90px;
+        width: 90px;
+        background-color: #000000;
+        position: absolute;
+        margin-left: 433px;
+        margin-right: auto;
+        margin-top: 140px;
+        border-radius: 25px;
     }
     h2{
         text-align: center;
@@ -28,8 +40,8 @@
 </head>
 <body>
     <h2>Calculadora</h2>
-    <div class="screen" style="z-index: 100"></div>
+    <div class="screen" style="z-index: 99"></div>
     <div class="rectangle" style="z-index: -1"></div>
-    
+    <div class="button" style="z-index: 100"></div>
 </body>
 </html>
